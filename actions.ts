@@ -1,5 +1,5 @@
 import { ActionContext, ActionTree } from "vuex";
-import { Mutations, MutationType } from "./mutations"; // import the types in mutations
+import { Mutations, MutationTypes } from "./mutations"; // import the types in mutations
 import { State } from "./state"; // import your State type
 
 export enum ActionTypes {}
@@ -33,7 +33,7 @@ export const actions: ActionTree<State, State> & Actions = {
     async [ActionTypes.GetText]({ commit }) {
         // content of the action
         // call mutations like his:
-        // commit(MutationType.SetText, "MyNewText");
+        // commit(MutationTypes.SetText, "MyNewText");
     },
   */
 };
