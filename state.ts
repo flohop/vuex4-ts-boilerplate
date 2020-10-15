@@ -6,7 +6,7 @@ export type State = {
 
     text: string,
     id: number 
-    */
+  */
 };
 
 export const state: State = {
@@ -15,5 +15,5 @@ export const state: State = {
 
     text: "Hello",
     id: 1
-    */
+  */
 };
