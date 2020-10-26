@@ -1,5 +1,6 @@
 # vuex4-ts-boilerplate
 Create your Vuex4 stores with TypeScript faster, by copy pasting boilerplate code
+<p>This code is just a copy of the code used in this <a href="https://www.youtube.com/watch?v=EeaYWLNXAwQ">awesome video</a></p>
 
 <p>All these files should be inside a "store" folder</p>
 <ul>
