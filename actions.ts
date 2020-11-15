@@ -23,17 +23,17 @@ export type Actions = {
   /*
     Similar to mutations, declare the action types of all your actions. The param always stays the same.
 
-    [ActionTypes.SetText](context: ActionAugments): void;
+    [ActionTypes.SetText](context: ActionAugments, payload: string): void;
   */
 };
 
 export const actions: ActionTree<State, State> & Actions = {
   /* Similar to mutations, implement all your action types here.
 
-    async [ActionTypes.SetText]({ commit }) {
+    async [ActionTypes.SetText]({ commit }, payload) {
         // content of the action
         // call mutations like his:
-        // commit(MutationTypes.SetText, "MyNewText");
+        // commit(MutationTypes.SetText, payload);
     },
   */
 };
