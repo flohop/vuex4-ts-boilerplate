@@ -14,8 +14,8 @@ export enum MutationTypes {}
 export type Mutations = {
   /* declare the mutation types. Meaning say, what Mutation gets what type of parameters
 
-    [MutationTypes].SetName](state: State, newText: string):void;
-    [MutationTypes].SetId](state: State, newId: number): void;
+    [MutationTypes.SetName](state: State, newText: string):void;
+    [MutationTypes.SetId](state: State, newId: number): void;
     */
 };
 
