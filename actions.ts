@@ -8,7 +8,7 @@ export enum ActionTypes {}
     k: The name of the action you call
     v: The internal name of the action that Vuex uses
 
-    GetText = "GET_TEXT"
+    SetText = "SET_TEXT"
   */
 
 // boilerplate type, to make actions work with TypeScript. Don't change anything here
@@ -23,14 +23,14 @@ export type Actions = {
   /*
     Similar to mutations, declare the action types of all your actions. The param always stays the same.
 
-    [ActionTypes.GetText](context: ActionAugments): void;
+    [ActionTypes.SetText](context: ActionAugments): void;
   */
 };
 
 export const actions: ActionTree<State, State> & Actions = {
   /* Similar to mutations, implement all your action types here.
 
-    async [ActionTypes.GetText]({ commit }) {
+    async [ActionTypes.SetText]({ commit }) {
         // content of the action
         // call mutations like his:
         // commit(MutationTypes.SetText, "MyNewText");
